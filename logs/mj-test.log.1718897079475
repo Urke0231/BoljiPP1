@@ -1,0 +1,111 @@
+INFO  17:20:11,664 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:20:11,677 - #2 program
+INFO  17:20:11,677 - #38 test301
+INFO  17:20:11,677 - #33 {
+INFO  17:20:11,678 - #3 void
+INFO  17:20:11,678 - #38 main
+INFO  17:20:11,678 - #29 (
+INFO  17:20:11,679 - #30 )
+INFO  17:20:11,679 - #38 int
+INFO  17:20:11,679 - #38 x
+INFO  17:20:11,679 - #5 ;
+INFO  17:20:11,680 - #33 {
+INFO  17:20:11,680 - #38 x
+INFO  17:20:11,680 - #21 =
+INFO  17:20:11,681 - #36 2
+INFO  17:20:11,681 - #5 ;
+INFO  17:20:11,681 - #4 print
+INFO  17:20:11,682 - #29 (
+INFO  17:20:11,682 - #38 x
+INFO  17:20:11,682 - #30 )
+INFO  17:20:11,682 - #5 ;
+INFO  17:20:11,682 - #7 return
+INFO  17:20:11,688 - #5 ;
+INFO  17:20:11,688 - #34 }
+INFO  17:20:11,688 - #34 }
+INFO  17:20:11,689 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstILIVarDecl(
+  ) [NoConstILIVarDecl]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            Designator(
+             x
+              NoListaNastavaka(
+              ) [NoListaNastavaka]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        YesStatementList(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  Designator(
+                   x
+                    NoListaNastavaka(
+                    ) [NoListaNastavaka]
+                  ) [Designator]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+            NoListaNumConst(
+            ) [NoListaNumConst]
+          ) [PrintStmt]
+          YesStatementList(
+            ReturnNoExpr(
+            ) [ReturnNoExpr]
+            NoStatementList(
+            ) [NoStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:20:11,689 - ===================================
+INFO  17:20:11,693 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  17:20:11,693 - Deklarisano je x tipa rs.etf.pp1.symboltable.concepts.Struct@290dbf45
+INFO  17:20:11,693 - Ulazi se u TermExpr na liniji 18
+ za promenljivu
+INFO  17:20:11,693 - AssignDesignatorStatement visit na liniji 18
+INFO  17:20:11,693 - Ulazi se u TermExpr na liniji 19
+ za promenljivu
+ERROR 17:20:11,694 - Print printuje samo int i char
+INFO  17:20:11,694 -  Print count calls = 1
+INFO  17:20:11,694 -  Deklarisanih promenljivih ima = 1

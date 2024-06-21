@@ -1,0 +1,221 @@
+INFO  13:48:00,218 - Compiling source file: C:\Users\Urke\Downloads\SintaksnaAnaliza\test\test300.mj
+INFO  13:48:00,236 - #2 program
+INFO  13:48:00,236 - #38 test301
+INFO  13:48:00,237 - #44 const
+INFO  13:48:00,237 - #38 int
+INFO  13:48:00,237 - #38 nula
+INFO  13:48:00,237 - #21 =
+INFO  13:48:00,237 - #36 0
+INFO  13:48:00,238 - #5 ;
+INFO  13:48:00,238 - #44 const
+INFO  13:48:00,239 - #38 int
+INFO  13:48:00,239 - #38 jedan
+INFO  13:48:00,239 - #21 =
+INFO  13:48:00,239 - #36 1
+INFO  13:48:00,239 - #5 ;
+INFO  13:48:00,239 - #44 const
+INFO  13:48:00,239 - #38 int
+INFO  13:48:00,239 - #38 pet
+INFO  13:48:00,239 - #21 =
+INFO  13:48:00,239 - #36 5
+INFO  13:48:00,239 - #5 ;
+INFO  13:48:00,239 - #38 int
+INFO  13:48:00,239 - #38 niz
+INFO  13:48:00,245 - #31 [
+INFO  13:48:00,245 - #32 ]
+INFO  13:48:00,245 - #27 ,
+INFO  13:48:00,245 - #38 niz2
+INFO  13:48:00,245 - #31 [
+INFO  13:48:00,245 - #32 ]
+INFO  13:48:00,245 - #5 ;
+INFO  13:48:00,246 - #38 char
+INFO  13:48:00,246 - #38 nizch
+INFO  13:48:00,246 - #31 [
+INFO  13:48:00,246 - #32 ]
+INFO  13:48:00,246 - #5 ;
+INFO  13:48:00,246 - #33 {
+INFO  13:48:00,246 - #3 void
+INFO  13:48:00,247 - #38 main
+INFO  13:48:00,247 - #29 (
+INFO  13:48:00,247 - #30 )
+INFO  13:48:00,247 - #38 int
+INFO  13:48:00,247 - #38 bodovi
+INFO  13:48:00,247 - #5 ;
+INFO  13:48:00,247 - #38 bool
+INFO  13:48:00,247 - #38 bt
+INFO  13:48:00,247 - #5 ;
+INFO  13:48:00,247 - #33 {
+INFO  13:48:00,247 - #38 bodovi
+INFO  13:48:00,247 - #21 =
+INFO  13:48:00,248 - #36 0
+INFO  13:48:00,248 - #5 ;
+INFO  13:48:00,248 - #34 }
+INFO  13:48:00,248 - #34 }
+INFO  13:48:00,249 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstILIVarDeclList1(
+    ConstILIVarDeclList1(
+      ConstILIVarDeclList1(
+        ConstILIVarDeclList1(
+          ConstILIVarDeclList1(
+            NoConstILIVarDecl(
+            ) [NoConstILIVarDecl]
+            ConstILIVarDeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               nula
+                Assignop(
+                ) [Assignop]
+                IntVar(
+                 0
+                ) [IntVar]
+                Kraj(
+                ) [Kraj]
+              ) [ConstDecl]
+            ) [ConstILIVarDeclConst]
+          ) [ConstILIVarDeclList1]
+          ConstILIVarDeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             jedan
+              Assignop(
+              ) [Assignop]
+              IntVar(
+               1
+              ) [IntVar]
+              Kraj(
+              ) [Kraj]
+            ) [ConstDecl]
+          ) [ConstILIVarDeclConst]
+        ) [ConstILIVarDeclList1]
+        ConstILIVarDeclConst(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           pet
+            Assignop(
+            ) [Assignop]
+            IntVar(
+             5
+            ) [IntVar]
+            Kraj(
+            ) [Kraj]
+          ) [ConstDecl]
+        ) [ConstILIVarDeclConst]
+      ) [ConstILIVarDeclList1]
+      ConstILIVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+          YesListaZagrada(
+            NoListaZagrada(
+            ) [NoListaZagrada]
+          ) [YesListaZagrada]
+          YesListaVarDecl(
+           niz2
+            YesListaZagrada(
+              NoListaZagrada(
+              ) [NoListaZagrada]
+            ) [YesListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [YesListaVarDecl]
+        ) [VarDecl]
+      ) [ConstILIVarDeclVar]
+    ) [ConstILIVarDeclList1]
+    ConstILIVarDeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+        YesListaZagrada(
+          NoListaZagrada(
+          ) [NoListaZagrada]
+        ) [YesListaZagrada]
+        NoListaVarDecl(
+        ) [NoListaVarDecl]
+      ) [VarDecl]
+    ) [ConstILIVarDeclVar]
+  ) [ConstILIVarDeclList1]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoListaZagrada(
+            ) [NoListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [VarDecl]
+        ) [YesVarDeclList]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            Designator(
+             bodovi
+              NemaNastavaka(
+              ) [NemaNastavaka]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 0
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:48:00,250 - ===================================
+INFO  13:48:05,355 - Deklarisano je nula tipa rs.etf.pp1.symboltable.concepts.Struct@40ef3420
+INFO  13:48:05,355 - Deklarisano je jedan tipa rs.etf.pp1.symboltable.concepts.Struct@40ef3420
+INFO  13:48:05,355 - Deklarisano je pet tipa rs.etf.pp1.symboltable.concepts.Struct@40ef3420
+INFO  13:48:05,355 - Deklarisano je niz tipa rs.etf.pp1.symboltable.concepts.Struct@498d318c
+INFO  13:48:05,355 - Deklarisano je niz2 tipa 1
+INFO  13:48:05,356 - Deklarisano je nizch tipa rs.etf.pp1.symboltable.concepts.Struct@6e171cd7
+INFO  13:48:05,356 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  13:48:05,356 - Deklarisano je bodovi tipa rs.etf.pp1.symboltable.concepts.Struct@40ef3420
+INFO  13:48:05,356 - Deklarisano je bt tipa rs.etf.pp1.symboltable.concepts.Struct@402bba4f
+INFO  13:48:05,357 - Ulazi se u TermExpr na liniji 17
+ za promenljivurs.etf.pp1.symboltable.concepts.Struct@384ad17b

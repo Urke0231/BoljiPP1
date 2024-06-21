@@ -1,0 +1,1199 @@
+INFO  19:13:40,680 - Compiling source file: C:\Users\Urke\Downloads\SintaksnaAnaliza\test\test300.mj
+INFO  19:13:40,692 - #2 program
+INFO  19:13:40,692 - #38 test301
+INFO  19:13:40,693 - #44 const
+INFO  19:13:40,693 - #38 int
+INFO  19:13:40,693 - #38 nula
+INFO  19:13:40,694 - #21 =
+INFO  19:13:40,694 - #36 0
+INFO  19:13:40,694 - #5 ;
+INFO  19:13:40,694 - #44 const
+INFO  19:13:40,695 - #38 int
+INFO  19:13:40,695 - #38 jedan
+INFO  19:13:40,695 - #21 =
+INFO  19:13:40,695 - #36 1
+INFO  19:13:40,695 - #5 ;
+INFO  19:13:40,695 - #44 const
+INFO  19:13:40,695 - #38 int
+INFO  19:13:40,695 - #38 pet
+INFO  19:13:40,695 - #21 =
+INFO  19:13:40,695 - #36 5
+INFO  19:13:40,695 - #5 ;
+INFO  19:13:40,695 - #38 int
+INFO  19:13:40,695 - #38 niz
+INFO  19:13:40,702 - #31 [
+INFO  19:13:40,702 - #32 ]
+INFO  19:13:40,702 - #27 ,
+INFO  19:13:40,702 - #38 niz2
+INFO  19:13:40,702 - #31 [
+INFO  19:13:40,702 - #32 ]
+INFO  19:13:40,702 - #5 ;
+INFO  19:13:40,702 - #38 char
+INFO  19:13:40,703 - #38 nizch
+INFO  19:13:40,703 - #31 [
+INFO  19:13:40,703 - #32 ]
+INFO  19:13:40,703 - #5 ;
+INFO  19:13:40,703 - #33 {
+INFO  19:13:40,703 - #3 void
+INFO  19:13:40,703 - #38 main
+INFO  19:13:40,703 - #29 (
+INFO  19:13:40,703 - #30 )
+INFO  19:13:40,704 - #38 int
+INFO  19:13:40,704 - #38 bodovi
+INFO  19:13:40,704 - #5 ;
+INFO  19:13:40,704 - #38 bool
+INFO  19:13:40,704 - #38 bt
+INFO  19:13:40,704 - #5 ;
+INFO  19:13:40,704 - #33 {
+INFO  19:13:40,704 - #38 bodovi
+INFO  19:13:40,704 - #21 =
+INFO  19:13:40,705 - #36 0
+INFO  19:13:40,705 - #5 ;
+INFO  19:13:40,705 - #38 bodovi
+INFO  19:13:40,705 - #23 ++
+INFO  19:13:40,705 - #5 ;
+INFO  19:13:40,705 - #38 bodovi
+INFO  19:13:40,705 - #21 =
+INFO  19:13:40,705 - #38 bodovi
+INFO  19:13:40,705 - #8 +
+INFO  19:13:40,705 - #38 jedan
+INFO  19:13:40,705 - #5 ;
+INFO  19:13:40,706 - #38 bodovi
+INFO  19:13:40,706 - #21 =
+INFO  19:13:40,706 - #38 bodovi
+INFO  19:13:40,706 - #10 *
+INFO  19:13:40,706 - #38 pet
+INFO  19:13:40,706 - #5 ;
+INFO  19:13:40,706 - #38 bodovi
+INFO  19:13:40,706 - #24 --
+INFO  19:13:40,706 - #5 ;
+INFO  19:13:40,706 - #4 print
+INFO  19:13:40,706 - #29 (
+INFO  19:13:40,706 - #38 bodovi
+INFO  19:13:40,706 - #30 )
+INFO  19:13:40,707 - #5 ;
+INFO  19:13:40,707 - #38 niz
+INFO  19:13:40,707 - #21 =
+INFO  19:13:40,707 - #46 new
+INFO  19:13:40,707 - #38 int
+INFO  19:13:40,707 - #31 [
+INFO  19:13:40,707 - #36 3
+INFO  19:13:40,707 - #32 ]
+INFO  19:13:40,707 - #5 ;
+INFO  19:13:40,707 - #38 niz
+INFO  19:13:40,707 - #31 [
+INFO  19:13:40,707 - #38 nula
+INFO  19:13:40,707 - #32 ]
+INFO  19:13:40,707 - #21 =
+INFO  19:13:40,707 - #38 jedan
+INFO  19:13:40,707 - #5 ;
+INFO  19:13:40,707 - #38 niz
+INFO  19:13:40,707 - #31 [
+INFO  19:13:40,707 - #36 1
+INFO  19:13:40,707 - #32 ]
+INFO  19:13:40,707 - #21 =
+INFO  19:13:40,707 - #36 2
+INFO  19:13:40,707 - #5 ;
+INFO  19:13:40,707 - #38 niz
+INFO  19:13:40,707 - #31 [
+INFO  19:13:40,707 - #38 niz
+INFO  19:13:40,708 - #31 [
+INFO  19:13:40,708 - #38 jedan
+INFO  19:13:40,708 - #32 ]
+INFO  19:13:40,708 - #32 ]
+INFO  19:13:40,708 - #21 =
+INFO  19:13:40,708 - #38 niz
+INFO  19:13:40,708 - #31 [
+INFO  19:13:40,708 - #38 niz
+INFO  19:13:40,708 - #31 [
+INFO  19:13:40,708 - #36 0
+INFO  19:13:40,708 - #32 ]
+INFO  19:13:40,708 - #32 ]
+INFO  19:13:40,708 - #10 *
+INFO  19:13:40,708 - #36 3
+INFO  19:13:40,708 - #5 ;
+INFO  19:13:40,708 - #38 bodovi
+INFO  19:13:40,708 - #21 =
+INFO  19:13:40,708 - #38 niz
+INFO  19:13:40,708 - #31 [
+INFO  19:13:40,708 - #36 2
+INFO  19:13:40,708 - #32 ]
+INFO  19:13:40,708 - #11 /
+INFO  19:13:40,708 - #38 niz
+INFO  19:13:40,708 - #31 [
+INFO  19:13:40,708 - #36 0
+INFO  19:13:40,708 - #32 ]
+INFO  19:13:40,708 - #5 ;
+INFO  19:13:40,709 - #4 print
+INFO  19:13:40,709 - #29 (
+INFO  19:13:40,709 - #38 bodovi
+INFO  19:13:40,709 - #30 )
+INFO  19:13:40,709 - #5 ;
+INFO  19:13:40,709 - #4 print
+INFO  19:13:40,709 - #29 (
+INFO  19:13:40,709 - #38 niz
+INFO  19:13:40,709 - #31 [
+INFO  19:13:40,709 - #36 2
+INFO  19:13:40,709 - #32 ]
+INFO  19:13:40,709 - #30 )
+INFO  19:13:40,709 - #5 ;
+INFO  19:13:40,709 - #38 nizch
+INFO  19:13:40,709 - #21 =
+INFO  19:13:40,709 - #46 new
+INFO  19:13:40,709 - #38 char
+INFO  19:13:40,709 - #31 [
+INFO  19:13:40,709 - #36 3
+INFO  19:13:40,709 - #32 ]
+INFO  19:13:40,709 - #5 ;
+INFO  19:13:40,709 - #38 nizch
+INFO  19:13:40,709 - #31 [
+INFO  19:13:40,709 - #36 0
+INFO  19:13:40,709 - #32 ]
+INFO  19:13:40,709 - #21 =
+INFO  19:13:40,709 - #37 a
+INFO  19:13:40,709 - #5 ;
+INFO  19:13:40,709 - #38 nizch
+INFO  19:13:40,709 - #31 [
+INFO  19:13:40,709 - #38 jedan
+INFO  19:13:40,709 - #32 ]
+INFO  19:13:40,709 - #21 =
+INFO  19:13:40,709 - #37 b
+INFO  19:13:40,709 - #5 ;
+INFO  19:13:40,709 - #38 nizch
+INFO  19:13:40,710 - #31 [
+INFO  19:13:40,710 - #38 pet
+INFO  19:13:40,710 - #9 -
+INFO  19:13:40,710 - #36 3
+INFO  19:13:40,710 - #32 ]
+INFO  19:13:40,710 - #21 =
+INFO  19:13:40,710 - #37 c
+INFO  19:13:40,710 - #5 ;
+INFO  19:13:40,710 - #4 print
+INFO  19:13:40,710 - #29 (
+INFO  19:13:40,710 - #38 nizch
+INFO  19:13:40,710 - #31 [
+INFO  19:13:40,710 - #36 1
+INFO  19:13:40,710 - #32 ]
+INFO  19:13:40,710 - #30 )
+INFO  19:13:40,710 - #5 ;
+INFO  19:13:40,710 - #4 print
+INFO  19:13:40,710 - #29 (
+INFO  19:13:40,710 - #38 nizch
+INFO  19:13:40,710 - #31 [
+INFO  19:13:40,710 - #38 jedan
+INFO  19:13:40,710 - #10 *
+INFO  19:13:40,710 - #36 2
+INFO  19:13:40,710 - #32 ]
+INFO  19:13:40,710 - #30 )
+INFO  19:13:40,710 - #5 ;
+INFO  19:13:40,710 - #38 bodovi
+INFO  19:13:40,710 - #21 =
+INFO  19:13:40,710 - #38 bodovi
+INFO  19:13:40,710 - #8 +
+INFO  19:13:40,710 - #29 (
+INFO  19:13:40,711 - #38 pet
+INFO  19:13:40,711 - #10 *
+INFO  19:13:40,711 - #38 jedan
+INFO  19:13:40,711 - #9 -
+INFO  19:13:40,711 - #36 1
+INFO  19:13:40,711 - #30 )
+INFO  19:13:40,711 - #10 *
+INFO  19:13:40,711 - #38 bodovi
+INFO  19:13:40,711 - #9 -
+INFO  19:13:40,711 - #29 (
+INFO  19:13:40,711 - #36 3
+INFO  19:13:40,711 - #12 %
+INFO  19:13:40,711 - #36 2
+INFO  19:13:40,711 - #8 +
+INFO  19:13:40,711 - #36 3
+INFO  19:13:40,711 - #10 *
+INFO  19:13:40,711 - #36 2
+INFO  19:13:40,711 - #9 -
+INFO  19:13:40,711 - #36 3
+INFO  19:13:40,711 - #30 )
+INFO  19:13:40,711 - #5 ;
+INFO  19:13:40,711 - #4 print
+INFO  19:13:40,711 - #29 (
+INFO  19:13:40,711 - #38 bodovi
+INFO  19:13:40,711 - #30 )
+INFO  19:13:40,711 - #5 ;
+INFO  19:13:40,711 - #50 read
+INFO  19:13:40,711 - #29 (
+INFO  19:13:40,711 - #38 bodovi
+INFO  19:13:40,711 - #30 )
+INFO  19:13:40,712 - #5 ;
+INFO  19:13:40,712 - #4 print
+INFO  19:13:40,712 - #29 (
+INFO  19:13:40,712 - #38 bodovi
+INFO  19:13:40,712 - #30 )
+INFO  19:13:40,712 - #5 ;
+INFO  19:13:40,712 - #38 niz2
+INFO  19:13:40,712 - #21 =
+INFO  19:13:40,712 - #52 range
+INFO  19:13:40,712 - #29 (
+INFO  19:13:40,712 - #38 bodovi
+INFO  19:13:40,712 - #8 +
+INFO  19:13:40,712 - #36 1
+INFO  19:13:40,712 - #30 )
+INFO  19:13:40,712 - #5 ;
+INFO  19:13:40,712 - #4 print
+INFO  19:13:40,712 - #29 (
+INFO  19:13:40,712 - #38 niz2
+INFO  19:13:40,712 - #30 )
+INFO  19:13:40,712 - #5 ;
+INFO  19:13:40,712 - #34 }
+INFO  19:13:40,712 - #34 }
+INFO  19:13:40,715 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstILIVarDeclList1(
+    ConstILIVarDeclList1(
+      ConstILIVarDeclList1(
+        ConstILIVarDeclList1(
+          ConstILIVarDeclList1(
+            NoConstILIVarDecl(
+            ) [NoConstILIVarDecl]
+            ConstILIVarDeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               nula
+                Assignop(
+                ) [Assignop]
+                IntVar(
+                 0
+                ) [IntVar]
+                Kraj(
+                ) [Kraj]
+              ) [ConstDecl]
+            ) [ConstILIVarDeclConst]
+          ) [ConstILIVarDeclList1]
+          ConstILIVarDeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             jedan
+              Assignop(
+              ) [Assignop]
+              IntVar(
+               1
+              ) [IntVar]
+              Kraj(
+              ) [Kraj]
+            ) [ConstDecl]
+          ) [ConstILIVarDeclConst]
+        ) [ConstILIVarDeclList1]
+        ConstILIVarDeclConst(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           pet
+            Assignop(
+            ) [Assignop]
+            IntVar(
+             5
+            ) [IntVar]
+            Kraj(
+            ) [Kraj]
+          ) [ConstDecl]
+        ) [ConstILIVarDeclConst]
+      ) [ConstILIVarDeclList1]
+      ConstILIVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+          YesListaZagrada(
+            NoListaZagrada(
+            ) [NoListaZagrada]
+          ) [YesListaZagrada]
+          YesListaVarDecl(
+           niz2
+            YesListaZagrada(
+              NoListaZagrada(
+              ) [NoListaZagrada]
+            ) [YesListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [YesListaVarDecl]
+        ) [VarDecl]
+      ) [ConstILIVarDeclVar]
+    ) [ConstILIVarDeclList1]
+    ConstILIVarDeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+        YesListaZagrada(
+          NoListaZagrada(
+          ) [NoListaZagrada]
+        ) [YesListaZagrada]
+        NoListaVarDecl(
+        ) [NoListaVarDecl]
+      ) [VarDecl]
+    ) [ConstILIVarDeclVar]
+  ) [ConstILIVarDeclList1]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoListaZagrada(
+            ) [NoListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [VarDecl]
+        ) [YesVarDeclList]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            Designator(
+             bodovi
+              NoListaNastavaka(
+              ) [NoListaNastavaka]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 0
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        YesStatementList(
+          Assignment(
+            Inkrement(
+              Designator(
+               bodovi
+                NoListaNastavaka(
+                ) [NoListaNastavaka]
+              ) [Designator]
+            ) [Inkrement]
+          ) [Assignment]
+          YesStatementList(
+            Assignment(
+              DesignatorAsign(
+                Designator(
+                 bodovi
+                  NoListaNastavaka(
+                  ) [NoListaNastavaka]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                AddopExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        Designator(
+                         bodovi
+                          NoListaNastavaka(
+                          ) [NoListaNastavaka]
+                        ) [Designator]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  FactorTerm(
+                    Var(
+                      Designator(
+                       jedan
+                        NoListaNastavaka(
+                        ) [NoListaNastavaka]
+                      ) [Designator]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [AddopExpr]
+              ) [DesignatorAsign]
+            ) [Assignment]
+            YesStatementList(
+              Assignment(
+                DesignatorAsign(
+                  Designator(
+                   bodovi
+                    NoListaNastavaka(
+                    ) [NoListaNastavaka]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  TermExpr(
+                    MulopTerm(
+                      FactorTerm(
+                        Var(
+                          Designator(
+                           bodovi
+                            NoListaNastavaka(
+                            ) [NoListaNastavaka]
+                          ) [Designator]
+                        ) [Var]
+                      ) [FactorTerm]
+                      MulopTimes(
+                      ) [MulopTimes]
+                      Var(
+                        Designator(
+                         pet
+                          NoListaNastavaka(
+                          ) [NoListaNastavaka]
+                        ) [Designator]
+                      ) [Var]
+                    ) [MulopTerm]
+                  ) [TermExpr]
+                ) [DesignatorAsign]
+              ) [Assignment]
+              YesStatementList(
+                Assignment(
+                  Dekrement(
+                    Designator(
+                     bodovi
+                      NoListaNastavaka(
+                      ) [NoListaNastavaka]
+                    ) [Designator]
+                  ) [Dekrement]
+                ) [Assignment]
+                YesStatementList(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          Designator(
+                           bodovi
+                            NoListaNastavaka(
+                            ) [NoListaNastavaka]
+                          ) [Designator]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    NoListaNumConst(
+                    ) [NoListaNumConst]
+                  ) [PrintStmt]
+                  YesStatementList(
+                    Assignment(
+                      DesignatorAsign(
+                        Designator(
+                         niz
+                          NoListaNastavaka(
+                          ) [NoListaNastavaka]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        TermExpr(
+                          FactorTerm(
+                            NoviNiz(
+                              Type(
+                               int
+                              ) [Type]
+                              TermExpr(
+                                FactorTerm(
+                                  NumberConst(
+                                   3
+                                  ) [NumberConst]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [NoviNiz]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [DesignatorAsign]
+                    ) [Assignment]
+                    YesStatementList(
+                      Assignment(
+                        DesignatorAsign(
+                          Designator(
+                           niz
+                            YesListaNastavaka(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    Designator(
+                                     nula
+                                      NoListaNastavaka(
+                                      ) [NoListaNastavaka]
+                                    ) [Designator]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                              NoListaNastavaka(
+                              ) [NoListaNastavaka]
+                            ) [YesListaNastavaka]
+                          ) [Designator]
+                          Assignop(
+                          ) [Assignop]
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                Designator(
+                                 jedan
+                                  NoListaNastavaka(
+                                  ) [NoListaNastavaka]
+                                ) [Designator]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [DesignatorAsign]
+                      ) [Assignment]
+                      YesStatementList(
+                        Assignment(
+                          DesignatorAsign(
+                            Designator(
+                             niz
+                              YesListaNastavaka(
+                                TermExpr(
+                                  FactorTerm(
+                                    NumberConst(
+                                     1
+                                    ) [NumberConst]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                                NoListaNastavaka(
+                                ) [NoListaNastavaka]
+                              ) [YesListaNastavaka]
+                            ) [Designator]
+                            Assignop(
+                            ) [Assignop]
+                            TermExpr(
+                              FactorTerm(
+                                NumberConst(
+                                 2
+                                ) [NumberConst]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [DesignatorAsign]
+                        ) [Assignment]
+                        YesStatementList(
+                          Assignment(
+                            DesignatorAsign(
+                              Designator(
+                               niz
+                                YesListaNastavaka(
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        Designator(
+                                         niz
+                                          YesListaNastavaka(
+                                            TermExpr(
+                                              FactorTerm(
+                                                Var(
+                                                  Designator(
+                                                   jedan
+                                                    NoListaNastavaka(
+                                                    ) [NoListaNastavaka]
+                                                  ) [Designator]
+                                                ) [Var]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            NoListaNastavaka(
+                                            ) [NoListaNastavaka]
+                                          ) [YesListaNastavaka]
+                                        ) [Designator]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                  NoListaNastavaka(
+                                  ) [NoListaNastavaka]
+                                ) [YesListaNastavaka]
+                              ) [Designator]
+                              Assignop(
+                              ) [Assignop]
+                              TermExpr(
+                                MulopTerm(
+                                  FactorTerm(
+                                    Var(
+                                      Designator(
+                                       niz
+                                        YesListaNastavaka(
+                                          TermExpr(
+                                            FactorTerm(
+                                              Var(
+                                                Designator(
+                                                 niz
+                                                  YesListaNastavaka(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        NumberConst(
+                                                         0
+                                                        ) [NumberConst]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                    NoListaNastavaka(
+                                                    ) [NoListaNastavaka]
+                                                  ) [YesListaNastavaka]
+                                                ) [Designator]
+                                              ) [Var]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                          NoListaNastavaka(
+                                          ) [NoListaNastavaka]
+                                        ) [YesListaNastavaka]
+                                      ) [Designator]
+                                    ) [Var]
+                                  ) [FactorTerm]
+                                  MulopTimes(
+                                  ) [MulopTimes]
+                                  NumberConst(
+                                   3
+                                  ) [NumberConst]
+                                ) [MulopTerm]
+                              ) [TermExpr]
+                            ) [DesignatorAsign]
+                          ) [Assignment]
+                          YesStatementList(
+                            Assignment(
+                              DesignatorAsign(
+                                Designator(
+                                 bodovi
+                                  NoListaNastavaka(
+                                  ) [NoListaNastavaka]
+                                ) [Designator]
+                                Assignop(
+                                ) [Assignop]
+                                TermExpr(
+                                  MulopTerm(
+                                    FactorTerm(
+                                      Var(
+                                        Designator(
+                                         niz
+                                          YesListaNastavaka(
+                                            TermExpr(
+                                              FactorTerm(
+                                                NumberConst(
+                                                 2
+                                                ) [NumberConst]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            NoListaNastavaka(
+                                            ) [NoListaNastavaka]
+                                          ) [YesListaNastavaka]
+                                        ) [Designator]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                    MulopCelobrojno(
+                                    ) [MulopCelobrojno]
+                                    Var(
+                                      Designator(
+                                       niz
+                                        YesListaNastavaka(
+                                          TermExpr(
+                                            FactorTerm(
+                                              NumberConst(
+                                               0
+                                              ) [NumberConst]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                          NoListaNastavaka(
+                                          ) [NoListaNastavaka]
+                                        ) [YesListaNastavaka]
+                                      ) [Designator]
+                                    ) [Var]
+                                  ) [MulopTerm]
+                                ) [TermExpr]
+                              ) [DesignatorAsign]
+                            ) [Assignment]
+                            YesStatementList(
+                              PrintStmt(
+                                TermExpr(
+                                  FactorTerm(
+                                    Var(
+                                      Designator(
+                                       bodovi
+                                        NoListaNastavaka(
+                                        ) [NoListaNastavaka]
+                                      ) [Designator]
+                                    ) [Var]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                                NoListaNumConst(
+                                ) [NoListaNumConst]
+                              ) [PrintStmt]
+                              YesStatementList(
+                                PrintStmt(
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        Designator(
+                                         niz
+                                          YesListaNastavaka(
+                                            TermExpr(
+                                              FactorTerm(
+                                                NumberConst(
+                                                 2
+                                                ) [NumberConst]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            NoListaNastavaka(
+                                            ) [NoListaNastavaka]
+                                          ) [YesListaNastavaka]
+                                        ) [Designator]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                  NoListaNumConst(
+                                  ) [NoListaNumConst]
+                                ) [PrintStmt]
+                                YesStatementList(
+                                  Assignment(
+                                    DesignatorAsign(
+                                      Designator(
+                                       nizch
+                                        NoListaNastavaka(
+                                        ) [NoListaNastavaka]
+                                      ) [Designator]
+                                      Assignop(
+                                      ) [Assignop]
+                                      TermExpr(
+                                        FactorTerm(
+                                          NoviNiz(
+                                            Type(
+                                             char
+                                            ) [Type]
+                                            TermExpr(
+                                              FactorTerm(
+                                                NumberConst(
+                                                 3
+                                                ) [NumberConst]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [NoviNiz]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [DesignatorAsign]
+                                  ) [Assignment]
+                                  YesStatementList(
+                                    Assignment(
+                                      DesignatorAsign(
+                                        Designator(
+                                         nizch
+                                          YesListaNastavaka(
+                                            TermExpr(
+                                              FactorTerm(
+                                                NumberConst(
+                                                 0
+                                                ) [NumberConst]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            NoListaNastavaka(
+                                            ) [NoListaNastavaka]
+                                          ) [YesListaNastavaka]
+                                        ) [Designator]
+                                        Assignop(
+                                        ) [Assignop]
+                                        TermExpr(
+                                          FactorTerm(
+                                            CHARConst(
+                                             a
+                                            ) [CHARConst]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [DesignatorAsign]
+                                    ) [Assignment]
+                                    YesStatementList(
+                                      Assignment(
+                                        DesignatorAsign(
+                                          Designator(
+                                           nizch
+                                            YesListaNastavaka(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Var(
+                                                    Designator(
+                                                     jedan
+                                                      NoListaNastavaka(
+                                                      ) [NoListaNastavaka]
+                                                    ) [Designator]
+                                                  ) [Var]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                              NoListaNastavaka(
+                                              ) [NoListaNastavaka]
+                                            ) [YesListaNastavaka]
+                                          ) [Designator]
+                                          Assignop(
+                                          ) [Assignop]
+                                          TermExpr(
+                                            FactorTerm(
+                                              CHARConst(
+                                               b
+                                              ) [CHARConst]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                        ) [DesignatorAsign]
+                                      ) [Assignment]
+                                      YesStatementList(
+                                        Assignment(
+                                          DesignatorAsign(
+                                            Designator(
+                                             nizch
+                                              YesListaNastavaka(
+                                                AddopExpr(
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      Var(
+                                                        Designator(
+                                                         pet
+                                                          NoListaNastavaka(
+                                                          ) [NoListaNastavaka]
+                                                        ) [Designator]
+                                                      ) [Var]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                  AddopMinus(
+                                                  ) [AddopMinus]
+                                                  FactorTerm(
+                                                    NumberConst(
+                                                     3
+                                                    ) [NumberConst]
+                                                  ) [FactorTerm]
+                                                ) [AddopExpr]
+                                                NoListaNastavaka(
+                                                ) [NoListaNastavaka]
+                                              ) [YesListaNastavaka]
+                                            ) [Designator]
+                                            Assignop(
+                                            ) [Assignop]
+                                            TermExpr(
+                                              FactorTerm(
+                                                CHARConst(
+                                                 c
+                                                ) [CHARConst]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [DesignatorAsign]
+                                        ) [Assignment]
+                                        YesStatementList(
+                                          PrintStmt(
+                                            TermExpr(
+                                              FactorTerm(
+                                                Var(
+                                                  Designator(
+                                                   nizch
+                                                    YesListaNastavaka(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          NumberConst(
+                                                           1
+                                                          ) [NumberConst]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                      NoListaNastavaka(
+                                                      ) [NoListaNastavaka]
+                                                    ) [YesListaNastavaka]
+                                                  ) [Designator]
+                                                ) [Var]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            NoListaNumConst(
+                                            ) [NoListaNumConst]
+                                          ) [PrintStmt]
+                                          YesStatementList(
+                                            PrintStmt(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Var(
+                                                    Designator(
+                                                     nizch
+                                                      YesListaNastavaka(
+                                                        TermExpr(
+                                                          MulopTerm(
+                                                            FactorTerm(
+                                                              Var(
+                                                                Designator(
+                                                                 jedan
+                                                                  NoListaNastavaka(
+                                                                  ) [NoListaNastavaka]
+                                                                ) [Designator]
+                                                              ) [Var]
+                                                            ) [FactorTerm]
+                                                            MulopTimes(
+                                                            ) [MulopTimes]
+                                                            NumberConst(
+                                                             2
+                                                            ) [NumberConst]
+                                                          ) [MulopTerm]
+                                                        ) [TermExpr]
+                                                        NoListaNastavaka(
+                                                        ) [NoListaNastavaka]
+                                                      ) [YesListaNastavaka]
+                                                    ) [Designator]
+                                                  ) [Var]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                              NoListaNumConst(
+                                              ) [NoListaNumConst]
+                                            ) [PrintStmt]
+                                            YesStatementList(
+                                              Assignment(
+                                                DesignatorAsign(
+                                                  Designator(
+                                                   bodovi
+                                                    NoListaNastavaka(
+                                                    ) [NoListaNastavaka]
+                                                  ) [Designator]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  AddopExpr(
+                                                    AddopExpr(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Var(
+                                                            Designator(
+                                                             bodovi
+                                                              NoListaNastavaka(
+                                                              ) [NoListaNastavaka]
+                                                            ) [Designator]
+                                                          ) [Var]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                      AddopPlus(
+                                                      ) [AddopPlus]
+                                                      MulopTerm(
+                                                        FactorTerm(
+                                                          UZagradama(
+                                                            AddopExpr(
+                                                              TermExpr(
+                                                                MulopTerm(
+                                                                  FactorTerm(
+                                                                    Var(
+                                                                      Designator(
+                                                                       pet
+                                                                        NoListaNastavaka(
+                                                                        ) [NoListaNastavaka]
+                                                                      ) [Designator]
+                                                                    ) [Var]
+                                                                  ) [FactorTerm]
+                                                                  MulopTimes(
+                                                                  ) [MulopTimes]
+                                                                  Var(
+                                                                    Designator(
+                                                                     jedan
+                                                                      NoListaNastavaka(
+                                                                      ) [NoListaNastavaka]
+                                                                    ) [Designator]
+                                                                  ) [Var]
+                                                                ) [MulopTerm]
+                                                              ) [TermExpr]
+                                                              AddopMinus(
+                                                              ) [AddopMinus]
+                                                              FactorTerm(
+                                                                NumberConst(
+                                                                 1
+                                                                ) [NumberConst]
+                                                              ) [FactorTerm]
+                                                            ) [AddopExpr]
+                                                          ) [UZagradama]
+                                                        ) [FactorTerm]
+                                                        MulopTimes(
+                                                        ) [MulopTimes]
+                                                        Var(
+                                                          Designator(
+                                                           bodovi
+                                                            NoListaNastavaka(
+                                                            ) [NoListaNastavaka]
+                                                          ) [Designator]
+                                                        ) [Var]
+                                                      ) [MulopTerm]
+                                                    ) [AddopExpr]
+                                                    AddopMinus(
+                                                    ) [AddopMinus]
+                                                    FactorTerm(
+                                                      UZagradama(
+                                                        AddopExpr(
+                                                          AddopExpr(
+                                                            TermExpr(
+                                                              MulopTerm(
+                                                                FactorTerm(
+                                                                  NumberConst(
+                                                                   3
+                                                                  ) [NumberConst]
+                                                                ) [FactorTerm]
+                                                                MulopModulo(
+                                                                ) [MulopModulo]
+                                                                NumberConst(
+                                                                 2
+                                                                ) [NumberConst]
+                                                              ) [MulopTerm]
+                                                            ) [TermExpr]
+                                                            AddopPlus(
+                                                            ) [AddopPlus]
+                                                            MulopTerm(
+                                                              FactorTerm(
+                                                                NumberConst(
+                                                                 3
+                                                                ) [NumberConst]
+                                                              ) [FactorTerm]
+                                                              MulopTimes(
+                                                              ) [MulopTimes]
+                                                              NumberConst(
+                                                               2
+                                                              ) [NumberConst]
+                                                            ) [MulopTerm]
+                                                          ) [AddopExpr]
+                                                          AddopMinus(
+                                                          ) [AddopMinus]
+                                                          FactorTerm(
+                                                            NumberConst(
+                                                             3
+                                                            ) [NumberConst]
+                                                          ) [FactorTerm]
+                                                        ) [AddopExpr]
+                                                      ) [UZagradama]
+                                                    ) [FactorTerm]
+                                                  ) [AddopExpr]
+                                                ) [DesignatorAsign]
+                                              ) [Assignment]
+                                              YesStatementList(
+                                                PrintStmt(
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      Var(
+                                                        Designator(
+                                                         bodovi
+                                                          NoListaNastavaka(
+                                                          ) [NoListaNastavaka]
+                                                        ) [Designator]
+                                                      ) [Var]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                  NoListaNumConst(
+                                                  ) [NoListaNumConst]
+                                                ) [PrintStmt]
+                                                YesStatementList(
+                                                  ReadNesto(
+                                                    Designator(
+                                                     bodovi
+                                                      NoListaNastavaka(
+                                                      ) [NoListaNastavaka]
+                                                    ) [Designator]
+                                                  ) [ReadNesto]
+                                                  YesStatementList(
+                                                    PrintStmt(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Var(
+                                                            Designator(
+                                                             bodovi
+                                                              NoListaNastavaka(
+                                                              ) [NoListaNastavaka]
+                                                            ) [Designator]
+                                                          ) [Var]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                      NoListaNumConst(
+                                                      ) [NoListaNumConst]
+                                                    ) [PrintStmt]
+                                                    YesStatementList(
+                                                      Assignment(
+                                                        DesignatorAsign(
+                                                          Designator(
+                                                           niz2
+                                                            NoListaNastavaka(
+                                                            ) [NoListaNastavaka]
+                                                          ) [Designator]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Range(
+                                                                AddopExpr(
+                                                                  TermExpr(
+                                                                    FactorTerm(
+                                                                      Var(
+                                                                        Designator(
+                                                                         bodovi
+                                                                          NoListaNastavaka(
+                                                                          ) [NoListaNastavaka]
+                                                                        ) [Designator]
+                                                                      ) [Var]
+                                                                    ) [FactorTerm]
+                                                                  ) [TermExpr]
+                                                                  AddopPlus(
+                                                                  ) [AddopPlus]
+                                                                  FactorTerm(
+                                                                    NumberConst(
+                                                                     1
+                                                                    ) [NumberConst]
+                                                                  ) [FactorTerm]
+                                                                ) [AddopExpr]
+                                                              ) [Range]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [DesignatorAsign]
+                                                      ) [Assignment]
+                                                      YesStatementList(
+                                                        PrintStmt(
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Var(
+                                                                Designator(
+                                                                 niz2
+                                                                  NoListaNastavaka(
+                                                                  ) [NoListaNastavaka]
+                                                                ) [Designator]
+                                                              ) [Var]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                          NoListaNumConst(
+                                                          ) [NoListaNumConst]
+                                                        ) [PrintStmt]
+                                                        NoStatementList(
+                                                        ) [NoStatementList]
+                                                      ) [YesStatementList]
+                                                    ) [YesStatementList]
+                                                  ) [YesStatementList]
+                                                ) [YesStatementList]
+                                              ) [YesStatementList]
+                                            ) [YesStatementList]
+                                          ) [YesStatementList]
+                                        ) [YesStatementList]
+                                      ) [YesStatementList]
+                                    ) [YesStatementList]
+                                  ) [YesStatementList]
+                                ) [YesStatementList]
+                              ) [YesStatementList]
+                            ) [YesStatementList]
+                          ) [YesStatementList]
+                        ) [YesStatementList]
+                      ) [YesStatementList]
+                    ) [YesStatementList]
+                  ) [YesStatementList]
+                ) [YesStatementList]
+              ) [YesStatementList]
+            ) [YesStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:13:40,715 - ===================================

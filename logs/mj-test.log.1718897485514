@@ -1,0 +1,156 @@
+INFO  17:31:19,478 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:31:19,523 - #2 program
+INFO  17:31:19,523 - #38 test301
+INFO  17:31:19,523 - #44 const
+INFO  17:31:19,524 - #38 int
+INFO  17:31:19,524 - #38 nula
+INFO  17:31:19,524 - #21 =
+INFO  17:31:19,525 - #36 0
+INFO  17:31:19,525 - #5 ;
+INFO  17:31:19,526 - #33 {
+INFO  17:31:19,526 - #3 void
+INFO  17:31:19,527 - #38 main
+INFO  17:31:19,527 - #29 (
+INFO  17:31:19,527 - #30 )
+INFO  17:31:19,527 - #38 int
+INFO  17:31:19,528 - #38 x
+INFO  17:31:19,528 - #5 ;
+INFO  17:31:19,529 - #33 {
+INFO  17:31:19,529 - #38 x
+INFO  17:31:19,529 - #21 =
+INFO  17:31:19,530 - #36 2
+INFO  17:31:19,530 - #5 ;
+INFO  17:31:19,537 - #4 print
+INFO  17:31:19,537 - #29 (
+INFO  17:31:19,537 - #38 x
+INFO  17:31:19,537 - #30 )
+INFO  17:31:19,538 - #5 ;
+INFO  17:31:19,538 - #4 print
+INFO  17:31:19,538 - #29 (
+INFO  17:31:19,538 - #36 2
+INFO  17:31:19,539 - #30 )
+INFO  17:31:19,539 - #5 ;
+INFO  17:31:19,539 - #7 return
+INFO  17:31:19,539 - #5 ;
+INFO  17:31:19,539 - #34 }
+INFO  17:31:19,540 - #34 }
+INFO  17:31:19,541 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstILIVarDeclList1(
+    NoConstILIVarDecl(
+    ) [NoConstILIVarDecl]
+    ConstILIVarDeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       nula
+        Assignop(
+        ) [Assignop]
+        IntVar(
+         0
+        ) [IntVar]
+        Kraj(
+        ) [Kraj]
+      ) [ConstDecl]
+    ) [ConstILIVarDeclConst]
+  ) [ConstILIVarDeclList1]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            Designator(
+             x
+              NoListaNastavaka(
+              ) [NoListaNastavaka]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        YesStatementList(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  Designator(
+                   x
+                    NoListaNastavaka(
+                    ) [NoListaNastavaka]
+                  ) [Designator]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+            NoListaNumConst(
+            ) [NoListaNumConst]
+          ) [PrintStmt]
+          YesStatementList(
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  NumberConst(
+                   2
+                  ) [NumberConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+              NoListaNumConst(
+              ) [NoListaNumConst]
+            ) [PrintStmt]
+            YesStatementList(
+              ReturnNoExpr(
+              ) [ReturnNoExpr]
+              NoStatementList(
+              ) [NoStatementList]
+            ) [YesStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:31:19,541 - ===================================
+INFO  17:31:19,548 - Deklarisano je nula tipa rs.etf.pp1.symboltable.concepts.Struct@20b2475a
+INFO  17:31:19,548 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  17:31:19,549 - Deklarisano je x tipa rs.etf.pp1.symboltable.concepts.Struct@20b2475a
+INFO  17:31:19,550 - Ulazi se u TermExpr na liniji 18
+ za promenljivu
+INFO  17:31:19,550 - AssignDesignatorStatement visit na liniji 18
+INFO  17:31:19,550 - Ulazi se u TermExpr na liniji 19
+ za promenljivu
+ERROR 17:31:19,550 - Print printuje samo int i char
+INFO  17:31:19,550 - Ulazi se u TermExpr na liniji 20
+ za promenljivu
+ERROR 17:31:19,550 - Print printuje samo int i char
+INFO  17:31:19,550 -  Print count calls = 2
+INFO  17:31:19,550 -  Deklarisanih promenljivih ima = 1

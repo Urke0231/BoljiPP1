@@ -1,0 +1,44 @@
+INFO  18:31:50,788 - Compiling source file: C:\Users\Urke\Downloads\SintaksnaAnaliza\test\test301.mj
+INFO  18:31:50,800 - #2 program
+INFO  18:31:50,800 - #38 test301
+INFO  18:31:50,800 - #44 const
+INFO  18:31:50,800 - #38 int
+INFO  18:31:50,800 - #38 nula
+INFO  18:31:50,800 - #21 =
+INFO  18:31:50,800 - #36 0
+INFO  18:31:50,801 - #5 ;
+INFO  18:31:50,801 - #44 const
+INFO  18:31:50,801 - #38 int
+INFO  18:31:50,801 - #38 jedan
+INFO  18:31:50,801 - #21 =
+INFO  18:31:50,801 - #36 1
+INFO  18:31:50,801 - #5 ;
+INFO  18:31:50,801 - #44 const
+INFO  18:31:50,801 - #38 int
+INFO  18:31:50,801 - #38 pet
+INFO  18:31:50,801 - #21 =
+INFO  18:31:50,802 - #36 5
+INFO  18:31:50,802 - #5 ;
+INFO  18:31:50,802 - #38 int
+INFO  18:31:50,802 - #38 niz
+INFO  18:31:50,808 - #31 [
+INFO  18:31:50,808 - #32 ]
+INFO  18:31:50,808 - #27 ,
+INFO  18:31:50,808 - #38 niz2
+INFO  18:31:50,808 - #31 [
+INFO  18:31:50,808 - #32 ]
+INFO  18:31:50,808 - #5 ;
+INFO  18:31:50,808 - #38 char
+INFO  18:31:50,809 - #38 nizch
+INFO  18:31:50,809 - #31 [
+INFO  18:31:50,809 - #32 ]
+INFO  18:31:50,809 - #5 ;
+INFO  18:31:50,809 - #33 {
+INFO  18:31:50,809 - #3 void
+INFO  18:31:50,809 - #38 main
+INFO  18:31:50,809 - #29 (
+INFO  18:31:50,809 - #30 )
+INFO  18:31:50,810 - #38 int
+ERROR 18:31:50,810 - 
+Sintaksna greska na liniji 14
+ERROR 18:31:50,810 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

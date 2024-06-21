@@ -1,0 +1,30 @@
+INFO  17:44:43,806 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:44:43,819 - #2 program
+INFO  17:44:43,819 - #38 MJProgram
+INFO  17:44:43,819 - #38 int
+INFO  17:44:43,820 - #38 x
+INFO  17:44:43,820 - #5 ;
+INFO  17:44:43,821 - #38 int
+INFO  17:44:43,821 - #38 y
+INFO  17:44:43,821 - #5 ;
+INFO  17:44:43,821 - #33 {
+INFO  17:44:43,821 - #38 int
+INFO  17:44:43,821 - #38 k
+INFO  17:44:43,821 - #29 (
+INFO  17:44:43,822 - #30 )
+INFO  17:44:43,822 - #38 int
+INFO  17:44:43,822 - #38 c
+INFO  17:44:43,822 - #5 ;
+INFO  17:44:43,822 - #33 {
+INFO  17:44:43,822 - #38 c
+INFO  17:44:43,822 - #21 =
+INFO  17:44:43,823 - #36 2
+INFO  17:44:43,823 - #5 ;
+INFO  17:44:43,823 - #4 print
+INFO  17:44:43,823 - #29 (
+INFO  17:44:43,823 - #36 0
+INFO  17:44:43,823 - #30 )
+INFO  17:44:43,824 - #7 return
+ERROR 17:44:43,824 - 
+Sintaksna greska na liniji 7
+ERROR 17:44:43,824 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

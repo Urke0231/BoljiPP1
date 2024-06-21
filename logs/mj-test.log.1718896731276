@@ -1,0 +1,68 @@
+INFO  17:17:49,922 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:17:49,935 - #2 program
+INFO  17:17:49,936 - #38 test301
+INFO  17:17:49,936 - #33 {
+INFO  17:17:49,936 - #38 int
+INFO  17:17:49,936 - #38 main
+INFO  17:17:49,937 - #29 (
+INFO  17:17:49,937 - #30 )
+INFO  17:17:49,937 - #33 {
+INFO  17:17:49,937 - #4 print
+INFO  17:17:49,937 - #29 (
+INFO  17:17:49,937 - #36 1
+INFO  17:17:49,938 - #30 )
+INFO  17:17:49,938 - #5 ;
+INFO  17:17:49,938 - #7 return
+INFO  17:17:49,938 - #5 ;
+INFO  17:17:49,938 - #34 }
+INFO  17:17:49,944 - #34 }
+INFO  17:17:49,945 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstILIVarDecl(
+  ) [NoConstILIVarDecl]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      YesMethodTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [YesMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      YesStatementList(
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumberConst(
+               1
+              ) [NumberConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+          NoListaNumConst(
+          ) [NoListaNumConst]
+        ) [PrintStmt]
+        YesStatementList(
+          ReturnNoExpr(
+          ) [ReturnNoExpr]
+          NoStatementList(
+          ) [NoStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:17:49,951 - ===================================
+INFO  17:17:49,955 - Obradjen metod main sa povratnim tipom 1 na liniji 13
+INFO  17:17:49,956 - Ulazi se u TermExpr na liniji 17
+ za promenljivu
+ERROR 17:17:49,956 - Print printuje samo int i char
+ERROR 17:17:49,956 - Semanticka greska na liniji 13: funkcija main nema return iskaz!
+INFO  17:17:49,956 -  Print count calls = 1
+INFO  17:17:49,956 -  Deklarisanih promenljivih ima = 0

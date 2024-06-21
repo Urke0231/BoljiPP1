@@ -1,0 +1,117 @@
+INFO  14:28:05,364 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  14:28:05,787 - #2 program
+INFO  14:28:05,787 - #38 test301
+INFO  14:28:05,787 - #33 {
+INFO  14:28:05,797 - #3 void
+INFO  14:28:05,803 - #38 main
+INFO  14:28:05,803 - #29 (
+INFO  14:28:05,803 - #30 )
+INFO  14:28:05,809 - #38 int
+INFO  14:28:05,815 - #38 bodovi
+INFO  14:28:05,821 - #5 ;
+INFO  14:28:05,831 - #38 bool
+INFO  14:28:05,837 - #38 bt
+INFO  14:28:05,837 - #5 ;
+INFO  14:28:05,837 - #33 {
+INFO  14:28:05,837 - #4 print
+INFO  14:28:05,837 - #29 (
+INFO  14:28:05,837 - #36 1
+INFO  14:28:05,837 - #30 )
+INFO  14:28:05,843 - #5 ;
+INFO  14:28:05,843 - #4 print
+INFO  14:28:05,843 - #29 (
+INFO  14:28:05,843 - #36 2
+INFO  14:28:05,843 - #30 )
+INFO  14:28:05,843 - #5 ;
+INFO  14:28:05,843 - #7 return
+INFO  14:28:05,843 - #5 ;
+INFO  14:28:05,843 - #34 }
+INFO  14:28:05,853 - #34 }
+INFO  14:28:05,865 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstILIVarDecl(
+  ) [NoConstILIVarDecl]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoListaZagrada(
+            ) [NoListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [VarDecl]
+        ) [YesVarDeclList]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumberConst(
+               1
+              ) [NumberConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+          NoListaNumConst(
+          ) [NoListaNumConst]
+        ) [PrintStmt]
+        YesStatementList(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+            NoListaNumConst(
+            ) [NoListaNumConst]
+          ) [PrintStmt]
+          YesStatementList(
+            ReturnNoExpr(
+            ) [ReturnNoExpr]
+            NoStatementList(
+            ) [NoStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:28:05,865 - ===================================
+INFO  14:28:05,892 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  14:28:05,892 - Deklarisano je bodovi tipa rs.etf.pp1.symboltable.concepts.Struct@6cc7b4de
+INFO  14:28:05,892 - Deklarisano je bt tipa rs.etf.pp1.symboltable.concepts.Struct@32cf48b7
+INFO  14:28:05,893 - Ulazi se u TermExpr na liniji 17
+ za promenljivu
+ERROR 14:28:05,893 - Print printuje samo int i char
+INFO  14:28:05,893 - Ulazi se u TermExpr na liniji 18
+ za promenljivu
+ERROR 14:28:05,893 - Print printuje samo int i char
+INFO  14:28:05,893 -  Print count calls = 2
+INFO  14:28:05,893 -  Deklarisanih promenljivih ima = 2

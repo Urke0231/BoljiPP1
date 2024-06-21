@@ -1,0 +1,546 @@
+INFO  23:39:24,216 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  23:39:24,230 - #2 program
+INFO  23:39:24,230 - #38 test301
+INFO  23:39:24,230 - #44 const
+INFO  23:39:24,230 - #38 int
+INFO  23:39:24,230 - #38 nula
+INFO  23:39:24,231 - #21 =
+INFO  23:39:24,231 - #36 0
+INFO  23:39:24,231 - #5 ;
+INFO  23:39:24,231 - #44 const
+INFO  23:39:24,232 - #38 int
+INFO  23:39:24,232 - #38 jedan
+INFO  23:39:24,232 - #21 =
+INFO  23:39:24,232 - #36 1
+INFO  23:39:24,232 - #5 ;
+INFO  23:39:24,232 - #44 const
+INFO  23:39:24,232 - #38 int
+INFO  23:39:24,232 - #38 pet
+INFO  23:39:24,232 - #21 =
+INFO  23:39:24,232 - #36 5
+INFO  23:39:24,232 - #5 ;
+INFO  23:39:24,232 - #38 int
+INFO  23:39:24,239 - #38 niz
+INFO  23:39:24,239 - #31 [
+INFO  23:39:24,239 - #32 ]
+INFO  23:39:24,239 - #27 ,
+INFO  23:39:24,239 - #38 niz2
+INFO  23:39:24,239 - #31 [
+INFO  23:39:24,239 - #32 ]
+INFO  23:39:24,240 - #5 ;
+INFO  23:39:24,240 - #38 char
+INFO  23:39:24,240 - #38 nizch
+INFO  23:39:24,240 - #31 [
+INFO  23:39:24,240 - #32 ]
+INFO  23:39:24,240 - #5 ;
+INFO  23:39:24,240 - #33 {
+INFO  23:39:24,241 - #3 void
+INFO  23:39:24,241 - #38 main
+INFO  23:39:24,241 - #29 (
+INFO  23:39:24,241 - #30 )
+INFO  23:39:24,241 - #38 int
+INFO  23:39:24,241 - #38 bodovi
+INFO  23:39:24,241 - #5 ;
+INFO  23:39:24,241 - #38 bool
+INFO  23:39:24,242 - #38 bt
+INFO  23:39:24,242 - #5 ;
+INFO  23:39:24,242 - #33 {
+INFO  23:39:24,242 - #38 bodovi
+INFO  23:39:24,242 - #21 =
+INFO  23:39:24,242 - #36 0
+INFO  23:39:24,242 - #5 ;
+INFO  23:39:24,242 - #4 print
+INFO  23:39:24,242 - #29 (
+INFO  23:39:24,242 - #38 bodovi
+INFO  23:39:24,242 - #30 )
+INFO  23:39:24,242 - #5 ;
+INFO  23:39:24,242 - #38 bodovi
+INFO  23:39:24,243 - #23 ++
+INFO  23:39:24,243 - #5 ;
+INFO  23:39:24,243 - #4 print
+INFO  23:39:24,243 - #29 (
+INFO  23:39:24,243 - #38 bodovi
+INFO  23:39:24,243 - #30 )
+INFO  23:39:24,243 - #5 ;
+INFO  23:39:24,243 - #38 bodovi
+INFO  23:39:24,243 - #21 =
+INFO  23:39:24,243 - #38 bodovi
+INFO  23:39:24,243 - #8 +
+INFO  23:39:24,243 - #38 jedan
+INFO  23:39:24,244 - #5 ;
+INFO  23:39:24,244 - #4 print
+INFO  23:39:24,244 - #29 (
+INFO  23:39:24,244 - #38 bodovi
+INFO  23:39:24,244 - #30 )
+INFO  23:39:24,244 - #5 ;
+INFO  23:39:24,244 - #38 bodovi
+INFO  23:39:24,244 - #21 =
+INFO  23:39:24,244 - #38 bodovi
+INFO  23:39:24,244 - #10 *
+INFO  23:39:24,244 - #38 pet
+INFO  23:39:24,244 - #5 ;
+INFO  23:39:24,245 - #4 print
+INFO  23:39:24,245 - #29 (
+INFO  23:39:24,245 - #38 bodovi
+INFO  23:39:24,245 - #30 )
+INFO  23:39:24,245 - #5 ;
+INFO  23:39:24,245 - #38 bodovi
+INFO  23:39:24,245 - #24 --
+INFO  23:39:24,245 - #5 ;
+INFO  23:39:24,245 - #4 print
+INFO  23:39:24,245 - #29 (
+INFO  23:39:24,245 - #38 bodovi
+INFO  23:39:24,245 - #30 )
+INFO  23:39:24,245 - #5 ;
+INFO  23:39:24,245 - #38 niz
+INFO  23:39:24,245 - #21 =
+INFO  23:39:24,245 - #46 new
+INFO  23:39:24,245 - #38 int
+INFO  23:39:24,245 - #31 [
+INFO  23:39:24,245 - #36 3
+INFO  23:39:24,245 - #32 ]
+INFO  23:39:24,245 - #5 ;
+INFO  23:39:24,245 - #4 print
+INFO  23:39:24,245 - #29 (
+INFO  23:39:24,245 - #36 0
+INFO  23:39:24,245 - #30 )
+INFO  23:39:24,245 - #5 ;
+INFO  23:39:24,245 - #38 niz
+INFO  23:39:24,245 - #31 [
+INFO  23:39:24,245 - #36 0
+INFO  23:39:24,245 - #32 ]
+INFO  23:39:24,245 - #21 =
+INFO  23:39:24,246 - #38 jedan
+INFO  23:39:24,246 - #5 ;
+INFO  23:39:24,246 - #34 }
+INFO  23:39:24,246 - #34 }
+INFO  23:39:24,248 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstILIVarDeclList1(
+    ConstILIVarDeclList1(
+      ConstILIVarDeclList1(
+        ConstILIVarDeclList1(
+          ConstILIVarDeclList1(
+            NoConstILIVarDecl(
+            ) [NoConstILIVarDecl]
+            ConstILIVarDeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               nula
+                Assignop(
+                ) [Assignop]
+                IntVar(
+                 0
+                ) [IntVar]
+                Kraj(
+                ) [Kraj]
+              ) [ConstDecl]
+            ) [ConstILIVarDeclConst]
+          ) [ConstILIVarDeclList1]
+          ConstILIVarDeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             jedan
+              Assignop(
+              ) [Assignop]
+              IntVar(
+               1
+              ) [IntVar]
+              Kraj(
+              ) [Kraj]
+            ) [ConstDecl]
+          ) [ConstILIVarDeclConst]
+        ) [ConstILIVarDeclList1]
+        ConstILIVarDeclConst(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           pet
+            Assignop(
+            ) [Assignop]
+            IntVar(
+             5
+            ) [IntVar]
+            Kraj(
+            ) [Kraj]
+          ) [ConstDecl]
+        ) [ConstILIVarDeclConst]
+      ) [ConstILIVarDeclList1]
+      ConstILIVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+          YesListaZagrada(
+            NoListaZagrada(
+            ) [NoListaZagrada]
+          ) [YesListaZagrada]
+          YesListaVarDecl(
+           niz2
+            YesListaZagrada(
+              NoListaZagrada(
+              ) [NoListaZagrada]
+            ) [YesListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [YesListaVarDecl]
+        ) [VarDecl]
+      ) [ConstILIVarDeclVar]
+    ) [ConstILIVarDeclList1]
+    ConstILIVarDeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+        YesListaZagrada(
+          NoListaZagrada(
+          ) [NoListaZagrada]
+        ) [YesListaZagrada]
+        NoListaVarDecl(
+        ) [NoListaVarDecl]
+      ) [VarDecl]
+    ) [ConstILIVarDeclVar]
+  ) [ConstILIVarDeclList1]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoListaZagrada(
+            ) [NoListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [VarDecl]
+        ) [YesVarDeclList]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            ObicanDesignator(
+             bodovi
+            ) [ObicanDesignator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 0
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        YesStatementList(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  ObicanDesignator(
+                   bodovi
+                  ) [ObicanDesignator]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+            NoListaNumConst(
+            ) [NoListaNumConst]
+          ) [PrintStmt]
+          YesStatementList(
+            Assignment(
+              Inkrement(
+                ObicanDesignator(
+                 bodovi
+                ) [ObicanDesignator]
+              ) [Inkrement]
+            ) [Assignment]
+            YesStatementList(
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      ObicanDesignator(
+                       bodovi
+                      ) [ObicanDesignator]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                NoListaNumConst(
+                ) [NoListaNumConst]
+              ) [PrintStmt]
+              YesStatementList(
+                Assignment(
+                  DesignatorAsign(
+                    ObicanDesignator(
+                     bodovi
+                    ) [ObicanDesignator]
+                    Assignop(
+                    ) [Assignop]
+                    AddopExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            ObicanDesignator(
+                             bodovi
+                            ) [ObicanDesignator]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      FactorTerm(
+                        Var(
+                          ObicanDesignator(
+                           jedan
+                          ) [ObicanDesignator]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [AddopExpr]
+                  ) [DesignatorAsign]
+                ) [Assignment]
+                YesStatementList(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          ObicanDesignator(
+                           bodovi
+                          ) [ObicanDesignator]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    NoListaNumConst(
+                    ) [NoListaNumConst]
+                  ) [PrintStmt]
+                  YesStatementList(
+                    Assignment(
+                      DesignatorAsign(
+                        ObicanDesignator(
+                         bodovi
+                        ) [ObicanDesignator]
+                        Assignop(
+                        ) [Assignop]
+                        TermExpr(
+                          MulopTerm(
+                            FactorTerm(
+                              Var(
+                                ObicanDesignator(
+                                 bodovi
+                                ) [ObicanDesignator]
+                              ) [Var]
+                            ) [FactorTerm]
+                            MulopTimes(
+                            ) [MulopTimes]
+                            Var(
+                              ObicanDesignator(
+                               pet
+                              ) [ObicanDesignator]
+                            ) [Var]
+                          ) [MulopTerm]
+                        ) [TermExpr]
+                      ) [DesignatorAsign]
+                    ) [Assignment]
+                    YesStatementList(
+                      PrintStmt(
+                        TermExpr(
+                          FactorTerm(
+                            Var(
+                              ObicanDesignator(
+                               bodovi
+                              ) [ObicanDesignator]
+                            ) [Var]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        NoListaNumConst(
+                        ) [NoListaNumConst]
+                      ) [PrintStmt]
+                      YesStatementList(
+                        Assignment(
+                          Dekrement(
+                            ObicanDesignator(
+                             bodovi
+                            ) [ObicanDesignator]
+                          ) [Dekrement]
+                        ) [Assignment]
+                        YesStatementList(
+                          PrintStmt(
+                            TermExpr(
+                              FactorTerm(
+                                Var(
+                                  ObicanDesignator(
+                                   bodovi
+                                  ) [ObicanDesignator]
+                                ) [Var]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                            NoListaNumConst(
+                            ) [NoListaNumConst]
+                          ) [PrintStmt]
+                          YesStatementList(
+                            Assignment(
+                              DesignatorAsign(
+                                ObicanDesignator(
+                                 niz
+                                ) [ObicanDesignator]
+                                Assignop(
+                                ) [Assignop]
+                                TermExpr(
+                                  FactorTerm(
+                                    NoviNiz(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      TermExpr(
+                                        FactorTerm(
+                                          NumberConst(
+                                           3
+                                          ) [NumberConst]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [NoviNiz]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [DesignatorAsign]
+                            ) [Assignment]
+                            YesStatementList(
+                              PrintStmt(
+                                TermExpr(
+                                  FactorTerm(
+                                    NumberConst(
+                                     0
+                                    ) [NumberConst]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                                NoListaNumConst(
+                                ) [NoListaNumConst]
+                              ) [PrintStmt]
+                              YesStatementList(
+                                Assignment(
+                                  DesignatorAsign(
+                                    Array(
+                                      TeskaGlupost(
+                                       niz
+                                      ) [TeskaGlupost]
+                                      YesListaNastavaka(
+                                        TermExpr(
+                                          FactorTerm(
+                                            NumberConst(
+                                             0
+                                            ) [NumberConst]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                        NoListaNastavaka1(
+                                        ) [NoListaNastavaka1]
+                                      ) [YesListaNastavaka]
+                                    ) [Array]
+                                    Assignop(
+                                    ) [Assignop]
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          ObicanDesignator(
+                                           jedan
+                                          ) [ObicanDesignator]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesignatorAsign]
+                                ) [Assignment]
+                                NoStatementList(
+                                ) [NoStatementList]
+                              ) [YesStatementList]
+                            ) [YesStatementList]
+                          ) [YesStatementList]
+                        ) [YesStatementList]
+                      ) [YesStatementList]
+                    ) [YesStatementList]
+                  ) [YesStatementList]
+                ) [YesStatementList]
+              ) [YesStatementList]
+            ) [YesStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:39:24,248 - ===================================
+INFO  23:39:24,251 - Deklarisano je nula tipa rs.etf.pp1.symboltable.concepts.Struct@3e77a1ed
+INFO  23:39:24,251 - Deklarisano je jedan tipa rs.etf.pp1.symboltable.concepts.Struct@3e77a1ed
+INFO  23:39:24,251 - Deklarisano je pet tipa rs.etf.pp1.symboltable.concepts.Struct@3e77a1ed
+INFO  23:39:24,251 - Deklarisano je niz tipa rs.etf.pp1.symboltable.concepts.Struct@3ffcd140
+INFO  23:39:24,251 - Deklarisano je niz2 tipa 1
+INFO  23:39:24,251 - Deklarisano je nizch tipa rs.etf.pp1.symboltable.concepts.Struct@23bb8443
+INFO  23:39:24,251 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  23:39:24,251 - Deklarisano je bodovi tipa rs.etf.pp1.symboltable.concepts.Struct@3e77a1ed
+INFO  23:39:24,251 - Deklarisano je bt tipa rs.etf.pp1.symboltable.concepts.Struct@1176dcec
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 17
+ za promenljivu
+INFO  23:39:24,252 - AssignDesignatorStatement visit na liniji 17
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 18
+ za promenljivu
+ERROR 23:39:24,252 - Print printuje samo int i char
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 20
+ za promenljivu
+ERROR 23:39:24,252 - Print printuje samo int i char
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 21
+ za promenljivu
+INFO  23:39:24,252 - AssignDesignatorStatement visit na liniji 21
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 22
+ za promenljivu
+ERROR 23:39:24,252 - Print printuje samo int i char
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 24
+ za promenljivu
+INFO  23:39:24,252 - AssignDesignatorStatement visit na liniji 24
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 25
+ za promenljivu
+ERROR 23:39:24,252 - Print printuje samo int i char
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 27
+ za promenljivu
+ERROR 23:39:24,252 - Print printuje samo int i char
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 30
+ za promenljivu
+INFO  23:39:24,252 - Ulazi se u NoviNiz na liniji 30
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 30
+ za promenljivu
+INFO  23:39:24,252 - AssignDesignatorStatement visit na liniji 30
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 31
+ za promenljivu
+ERROR 23:39:24,252 - Print printuje samo int i char
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 32
+ za promenljivu
+INFO  23:39:24,252 - Ulazi se u TermExpr na liniji 32
+ za promenljivu
+INFO  23:39:24,252 - AssignDesignatorStatement visit na liniji 32
+INFO  23:39:24,253 -  Print count calls = 6
+INFO  23:39:24,253 -  Deklarisanih promenljivih ima = 5

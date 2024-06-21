@@ -1,0 +1,26 @@
+INFO  17:29:24,296 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Workspace\MJCompiler\test\program.mj
+INFO  17:29:24,299 - #100 program
+INFO  17:29:24,299 - #201 MJProgram
+INFO  17:29:24,299 - #201 int
+INFO  17:29:24,299 - #201 x
+INFO  17:29:24,299 - #418 ,
+INFO  17:29:24,299 - #201 y
+INFO  17:29:24,299 - #416 ;
+INFO  17:29:24,299 - #424 {
+INFO  17:29:24,299 - #110 void
+INFO  17:29:24,299 - #201 main
+INFO  17:29:24,299 - #420 (
+INFO  17:29:24,300 - #421 )
+INFO  17:29:24,300 - #424 {
+INFO  17:29:24,300 - #201 bool
+INFO  17:29:24,300 - #201 b
+INFO  17:29:24,300 - #405 =
+INFO  17:29:24,300 - #303 true
+INFO  17:29:24,300 - #416 ;
+INFO  17:29:24,300 - #201 char
+INFO  17:29:24,300 - #201 c
+INFO  17:29:24,300 - #405 =
+INFO  17:29:24,307 - #302 'c'
+INFO  17:29:24,307 - #416 ;
+INFO  17:29:24,307 - #425 }
+INFO  17:29:24,307 - #425 }

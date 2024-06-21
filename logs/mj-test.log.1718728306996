@@ -1,0 +1,40 @@
+INFO  18:29:40,533 - Compiling source file: C:\Users\Urke\Downloads\SintaksnaAnaliza\test\test301.mj
+INFO  18:29:40,545 - #2 program
+INFO  18:29:40,545 - #38 test301
+INFO  18:29:40,545 - #44 const
+INFO  18:29:40,545 - #38 int
+INFO  18:29:40,545 - #38 nula
+INFO  18:29:40,546 - #21 =
+INFO  18:29:40,546 - #36 0
+INFO  18:29:40,546 - #5 ;
+INFO  18:29:40,546 - #44 const
+INFO  18:29:40,547 - #38 int
+INFO  18:29:40,547 - #38 jedan
+INFO  18:29:40,547 - #21 =
+INFO  18:29:40,547 - #36 1
+INFO  18:29:40,547 - #5 ;
+INFO  18:29:40,547 - #44 const
+INFO  18:29:40,547 - #38 int
+INFO  18:29:40,547 - #38 pet
+INFO  18:29:40,547 - #21 =
+INFO  18:29:40,547 - #36 5
+INFO  18:29:40,547 - #5 ;
+INFO  18:29:40,547 - #38 int
+INFO  18:29:40,547 - #38 niz
+INFO  18:29:40,553 - #31 [
+INFO  18:29:40,553 - #32 ]
+INFO  18:29:40,553 - #27 ,
+INFO  18:29:40,553 - #38 niz2
+INFO  18:29:40,553 - #31 [
+INFO  18:29:40,553 - #32 ]
+INFO  18:29:40,553 - #5 ;
+INFO  18:29:40,554 - #38 char
+INFO  18:29:40,554 - #38 nizch
+INFO  18:29:40,554 - #31 [
+INFO  18:29:40,555 - #32 ]
+INFO  18:29:40,555 - #5 ;
+INFO  18:29:40,555 - #33 {
+INFO  18:29:40,555 - #3 void
+ERROR 18:29:40,555 - 
+Sintaksna greska na liniji 13
+ERROR 18:29:40,555 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

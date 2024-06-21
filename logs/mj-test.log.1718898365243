@@ -1,0 +1,281 @@
+INFO  17:45:14,425 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:45:14,439 - #2 program
+INFO  17:45:14,439 - #38 MJProgram
+INFO  17:45:14,440 - #38 int
+INFO  17:45:14,440 - #38 x
+INFO  17:45:14,440 - #5 ;
+INFO  17:45:14,441 - #38 int
+INFO  17:45:14,441 - #38 y
+INFO  17:45:14,441 - #5 ;
+INFO  17:45:14,441 - #33 {
+INFO  17:45:14,441 - #38 int
+INFO  17:45:14,442 - #38 k
+INFO  17:45:14,442 - #29 (
+INFO  17:45:14,442 - #30 )
+INFO  17:45:14,442 - #38 int
+INFO  17:45:14,442 - #38 c
+INFO  17:45:14,442 - #5 ;
+INFO  17:45:14,442 - #33 {
+INFO  17:45:14,442 - #38 c
+INFO  17:45:14,443 - #21 =
+INFO  17:45:14,443 - #36 2
+INFO  17:45:14,443 - #5 ;
+INFO  17:45:14,443 - #4 print
+INFO  17:45:14,450 - #29 (
+INFO  17:45:14,450 - #36 0
+INFO  17:45:14,450 - #30 )
+INFO  17:45:14,450 - #5 ;
+INFO  17:45:14,450 - #7 return
+INFO  17:45:14,450 - #38 c
+INFO  17:45:14,450 - #8 +
+INFO  17:45:14,450 - #36 2
+INFO  17:45:14,451 - #5 ;
+INFO  17:45:14,451 - #34 }
+INFO  17:45:14,452 - #38 int
+INFO  17:45:14,452 - #38 main
+INFO  17:45:14,452 - #29 (
+INFO  17:45:14,452 - #30 )
+INFO  17:45:14,452 - #33 {
+INFO  17:45:14,452 - #38 x
+INFO  17:45:14,452 - #21 =
+INFO  17:45:14,452 - #36 3
+INFO  17:45:14,452 - #5 ;
+INFO  17:45:14,452 - #4 print
+INFO  17:45:14,452 - #29 (
+INFO  17:45:14,452 - #36 1
+INFO  17:45:14,452 - #30 )
+INFO  17:45:14,452 - #5 ;
+INFO  17:45:14,452 - #38 k
+INFO  17:45:14,453 - #29 (
+INFO  17:45:14,453 - #30 )
+INFO  17:45:14,453 - #5 ;
+INFO  17:45:14,453 - #4 print
+INFO  17:45:14,453 - #29 (
+INFO  17:45:14,453 - #36 2
+INFO  17:45:14,453 - #30 )
+INFO  17:45:14,453 - #5 ;
+INFO  17:45:14,453 - #34 }
+INFO  17:45:14,453 - #34 }
+INFO  17:45:14,454 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstILIVarDeclList1(
+    ConstILIVarDeclList1(
+      NoConstILIVarDecl(
+      ) [NoConstILIVarDecl]
+      ConstILIVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [ConstILIVarDeclVar]
+    ) [ConstILIVarDeclList1]
+    ConstILIVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+        NoListaZagrada(
+        ) [NoListaZagrada]
+        NoListaVarDecl(
+        ) [NoListaVarDecl]
+      ) [VarDecl]
+    ) [ConstILIVarDeclVar]
+  ) [ConstILIVarDeclList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        YesMethodTypeName(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [YesMethodTypeName]
+        NoFormPars1(
+        ) [NoFormPars1]
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           c
+            NoListaZagrada(
+            ) [NoListaZagrada]
+            NoListaVarDecl(
+            ) [NoListaVarDecl]
+          ) [VarDecl]
+        ) [YesVarDeclList]
+        YesStatementList(
+          Assignment(
+            DesignatorAsign(
+              Designator(
+               c
+                NoListaNastavaka(
+                ) [NoListaNastavaka]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                FactorTerm(
+                  NumberConst(
+                   2
+                  ) [NumberConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesignatorAsign]
+          ) [Assignment]
+          YesStatementList(
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  NumberConst(
+                   0
+                  ) [NumberConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+              NoListaNumConst(
+              ) [NoListaNumConst]
+            ) [PrintStmt]
+            YesStatementList(
+              ReturnExpr(
+                AddopExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        Designator(
+                         c
+                          NoListaNastavaka(
+                          ) [NoListaNastavaka]
+                        ) [Designator]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  FactorTerm(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [FactorTerm]
+                ) [AddopExpr]
+              ) [ReturnExpr]
+              NoStatementList(
+              ) [NoStatementList]
+            ) [YesStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      YesMethodTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [YesMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            Designator(
+             x
+              NoListaNastavaka(
+              ) [NoListaNastavaka]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 3
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        YesStatementList(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 1
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+            NoListaNumConst(
+            ) [NoListaNumConst]
+          ) [PrintStmt]
+          YesStatementList(
+            Assignment(
+              ProcCall(
+                Designator(
+                 k
+                  NoListaNastavaka(
+                  ) [NoListaNastavaka]
+                ) [Designator]
+                NoActPars(
+                ) [NoActPars]
+              ) [ProcCall]
+            ) [Assignment]
+            YesStatementList(
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                NoListaNumConst(
+                ) [NoListaNumConst]
+              ) [PrintStmt]
+              NoStatementList(
+              ) [NoStatementList]
+            ) [YesStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:45:14,454 - ===================================
+INFO  17:45:14,457 - Deklarisano je x tipa rs.etf.pp1.symboltable.concepts.Struct@32a068d1
+INFO  17:45:14,457 - Deklarisano je y tipa rs.etf.pp1.symboltable.concepts.Struct@32a068d1
+INFO  17:45:14,457 - Obradjen metod k sa povratnim tipom 1 na liniji 4
+INFO  17:45:14,457 - Deklarisano je c tipa rs.etf.pp1.symboltable.concepts.Struct@32a068d1
+INFO  17:45:14,458 - Ulazi se u TermExpr na liniji 5
+ za promenljivu
+INFO  17:45:14,458 - AssignDesignatorStatement visit na liniji 5
+INFO  17:45:14,458 - Ulazi se u TermExpr na liniji 6
+ za promenljivu
+ERROR 17:45:14,458 - Print printuje samo int i char
+INFO  17:45:14,459 - Ulazi se u TermExpr na liniji 7
+ za promenljivu
+INFO  17:45:14,459 - Obradjen metod main sa povratnim tipom 1 na liniji 9
+INFO  17:45:14,459 - Ulazi se u TermExpr na liniji 11
+ za promenljivu
+INFO  17:45:14,459 - AssignDesignatorStatement visit na liniji 11
+INFO  17:45:14,459 - Ulazi se u TermExpr na liniji 12
+ za promenljivu
+ERROR 17:45:14,459 - Print printuje samo int i char
+INFO  17:45:14,459 - Ulazi se u TermExpr na liniji 15
+ za promenljivu
+ERROR 17:45:14,459 - Print printuje samo int i char
+ERROR 17:45:14,459 - Semanticka greska na liniji 9: funkcija main nema return iskaz!
+INFO  17:45:14,459 -  Print count calls = 3
+INFO  17:45:14,459 -  Deklarisanih promenljivih ima = 3

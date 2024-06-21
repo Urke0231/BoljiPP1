@@ -1,0 +1,18 @@
+INFO  17:40:26,522 - Compiling source file: C:\Users\Urke\Downloads\SintaksnaAnaliza\test\program.mj
+INFO  17:40:26,532 - #2 program
+INFO  17:40:26,532 - #38 MJProgram
+INFO  17:40:26,532 - #38 int
+INFO  17:40:26,533 - #38 x
+INFO  17:40:26,533 - #5 ;
+INFO  17:40:26,534 - #38 int
+INFO  17:40:26,534 - #38 y
+INFO  17:40:26,534 - #5 ;
+INFO  17:40:26,534 - #33 {
+INFO  17:40:26,534 - #38 int
+INFO  17:40:26,535 - #38 main
+INFO  17:40:26,535 - #29 (
+INFO  17:40:26,535 - #30 )
+INFO  17:40:26,535 - #33 {
+ERROR 17:40:26,535 - 
+Sintaksna greska na liniji 4
+ERROR 17:40:26,535 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

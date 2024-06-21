@@ -1,0 +1,64 @@
+INFO  14:28:43,634 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  14:28:43,649 - #2 program
+INFO  14:28:43,649 - #38 test301
+INFO  14:28:43,649 - #33 {
+INFO  14:28:43,650 - #3 void
+INFO  14:28:43,650 - #38 main
+INFO  14:28:43,650 - #29 (
+INFO  14:28:43,650 - #30 )
+INFO  14:28:43,651 - #33 {
+INFO  14:28:43,651 - #4 print
+INFO  14:28:43,651 - #29 (
+INFO  14:28:43,651 - #36 1
+INFO  14:28:43,651 - #30 )
+INFO  14:28:43,651 - #5 ;
+INFO  14:28:43,651 - #7 return
+INFO  14:28:43,651 - #5 ;
+INFO  14:28:43,652 - #34 }
+INFO  14:28:43,652 - #34 }
+INFO  14:28:43,653 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstILIVarDecl(
+  ) [NoConstILIVarDecl]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      YesStatementList(
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumberConst(
+               1
+              ) [NumberConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+          NoListaNumConst(
+          ) [NoListaNumConst]
+        ) [PrintStmt]
+        YesStatementList(
+          ReturnNoExpr(
+          ) [ReturnNoExpr]
+          NoStatementList(
+          ) [NoStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:28:43,653 - ===================================
+INFO  14:28:43,657 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  14:28:43,658 - Ulazi se u TermExpr na liniji 17
+ za promenljivu
+ERROR 14:28:43,658 - Print printuje samo int i char
+INFO  14:28:43,658 -  Print count calls = 1
+INFO  14:28:43,658 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,9 @@
+INFO  18:24:32,427 - Compiling source file: C:\Users\Urke\Downloads\SintaksnaAnaliza\test\test301.mj
+INFO  18:24:32,440 - #2 program
+INFO  18:24:32,440 - #38 test301
+INFO  18:24:32,440 - #38 const
+INFO  18:24:32,441 - #38 int
+INFO  18:24:32,441 - #38 nula
+ERROR 18:24:32,441 - 
+Sintaksna greska na liniji 5
+ERROR 18:24:32,441 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

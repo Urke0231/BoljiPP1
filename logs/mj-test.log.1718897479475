@@ -1,0 +1,135 @@
+INFO  17:31:02,534 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:31:02,547 - #2 program
+INFO  17:31:02,548 - #38 test301
+INFO  17:31:02,548 - #44 const
+INFO  17:31:02,548 - #38 int
+INFO  17:31:02,548 - #38 nula
+INFO  17:31:02,549 - #21 =
+INFO  17:31:02,549 - #36 0
+INFO  17:31:02,549 - #5 ;
+INFO  17:31:02,549 - #33 {
+INFO  17:31:02,549 - #3 void
+INFO  17:31:02,550 - #38 main
+INFO  17:31:02,550 - #29 (
+INFO  17:31:02,550 - #30 )
+INFO  17:31:02,550 - #38 int
+INFO  17:31:02,550 - #38 x
+INFO  17:31:02,550 - #5 ;
+INFO  17:31:02,551 - #33 {
+INFO  17:31:02,551 - #38 x
+INFO  17:31:02,551 - #21 =
+INFO  17:31:02,551 - #36 2
+INFO  17:31:02,552 - #5 ;
+INFO  17:31:02,558 - #4 print
+INFO  17:31:02,558 - #29 (
+INFO  17:31:02,558 - #38 x
+INFO  17:31:02,558 - #30 )
+INFO  17:31:02,559 - #5 ;
+INFO  17:31:02,559 - #7 return
+INFO  17:31:02,559 - #5 ;
+INFO  17:31:02,559 - #34 }
+INFO  17:31:02,559 - #34 }
+INFO  17:31:02,560 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstILIVarDeclList1(
+    NoConstILIVarDecl(
+    ) [NoConstILIVarDecl]
+    ConstILIVarDeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       nula
+        Assignop(
+        ) [Assignop]
+        IntVar(
+         0
+        ) [IntVar]
+        Kraj(
+        ) [Kraj]
+      ) [ConstDecl]
+    ) [ConstILIVarDeclConst]
+  ) [ConstILIVarDeclList1]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidMethodTypeName(
+       main
+      ) [VoidMethodTypeName]
+      NoFormPars1(
+      ) [NoFormPars1]
+      YesVarDeclList(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          NoListaZagrada(
+          ) [NoListaZagrada]
+          NoListaVarDecl(
+          ) [NoListaVarDecl]
+        ) [VarDecl]
+      ) [YesVarDeclList]
+      YesStatementList(
+        Assignment(
+          DesignatorAsign(
+            Designator(
+             x
+              NoListaNastavaka(
+              ) [NoListaNastavaka]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesignatorAsign]
+        ) [Assignment]
+        YesStatementList(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  Designator(
+                   x
+                    NoListaNastavaka(
+                    ) [NoListaNastavaka]
+                  ) [Designator]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+            NoListaNumConst(
+            ) [NoListaNumConst]
+          ) [PrintStmt]
+          YesStatementList(
+            ReturnNoExpr(
+            ) [ReturnNoExpr]
+            NoStatementList(
+            ) [NoStatementList]
+          ) [YesStatementList]
+        ) [YesStatementList]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:31:02,560 - ===================================
+INFO  17:31:02,563 - Deklarisano je nula tipa rs.etf.pp1.symboltable.concepts.Struct@4e41089d
+INFO  17:31:02,564 - Obradjen metod main sa povratnim tipom void na liniji 13
+INFO  17:31:02,564 - Deklarisano je x tipa rs.etf.pp1.symboltable.concepts.Struct@4e41089d
+INFO  17:31:02,564 - Ulazi se u TermExpr na liniji 18
+ za promenljivu
+INFO  17:31:02,564 - AssignDesignatorStatement visit na liniji 18
+INFO  17:31:02,564 - Ulazi se u TermExpr na liniji 19
+ za promenljivu
+ERROR 17:31:02,564 - Print printuje samo int i char
+INFO  17:31:02,564 -  Print count calls = 1
+INFO  17:31:02,564 -  Deklarisanih promenljivih ima = 1

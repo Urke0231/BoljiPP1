@@ -1,0 +1,41 @@
+INFO  20:44:32,891 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  20:44:32,905 - #2 program
+INFO  20:44:32,905 - #38 test301
+INFO  20:44:32,905 - #44 const
+INFO  20:44:32,906 - #38 int
+INFO  20:44:32,906 - #38 nula
+INFO  20:44:32,906 - #21 =
+INFO  20:44:32,906 - #36 0
+INFO  20:44:32,906 - #5 ;
+INFO  20:44:32,906 - #44 const
+INFO  20:44:32,907 - #38 int
+INFO  20:44:32,907 - #38 jedan
+INFO  20:44:32,907 - #21 =
+INFO  20:44:32,907 - #36 1
+INFO  20:44:32,907 - #5 ;
+INFO  20:44:32,907 - #44 const
+INFO  20:44:32,907 - #38 int
+INFO  20:44:32,907 - #38 pet
+INFO  20:44:32,907 - #21 =
+INFO  20:44:32,907 - #36 5
+INFO  20:44:32,907 - #5 ;
+INFO  20:44:32,907 - #38 int
+INFO  20:44:32,914 - #38 niz
+INFO  20:44:32,914 - #31 [
+INFO  20:44:32,914 - #32 ]
+INFO  20:44:32,914 - #27 ,
+INFO  20:44:32,914 - #38 niz2
+INFO  20:44:32,914 - #31 [
+INFO  20:44:32,914 - #32 ]
+INFO  20:44:32,914 - #5 ;
+INFO  20:44:32,915 - #38 char
+INFO  20:44:32,915 - #38 nizch
+INFO  20:44:32,915 - #31 [
+INFO  20:44:32,915 - #32 ]
+INFO  20:44:32,915 - #5 ;
+INFO  20:44:32,915 - #33 {
+INFO  20:44:32,915 - #38 int
+INFO  20:44:32,916 - #31 [
+ERROR 20:44:32,916 - 
+Sintaksna greska na liniji 12
+ERROR 20:44:32,916 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

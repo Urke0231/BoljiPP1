@@ -1,0 +1,198 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+   
+    boolean errorDetected;
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    errorDetected=true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with{:
+	errorDetected=false;
+:}
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, VOID, PRINT, SEMI, EQUAL, RETURN, PLUS, MINUS, MULTIPLY, DIVIDE, MODULO, EQUALS;
+terminal NOT_EQUALS, GREATER_THAN, GREATER_THAN_OR_EQUALS, LESS_THAN, LESS_THAN_OR_EQUALS, AND, OR, JEDNAKO;
+terminal ASSIGN, INCREMENT, DECREMENT, SEMICOLON, COLON, COMMA, DOT, LPAREN, RPAREN, LBRACKET, RBRACKET, LBRACE, RBRACE, ARROW;
+
+terminal Integer NUMBER;
+terminal Character CHAR;
+terminal String IDENT;
+terminal String BOOL;
+terminal IF, ELSE, CLASS, EXTENDS, CONST, SKOUP, NEW, BREAK;
+terminal STATIC, NAMESPACE, READ, CONTINUE, RANGE;
+
+
+nonterminal ConstILIVarDecl, MethodDeclList, ConstILIVarDeclList, ListaZagrada;
+
+nonterminal FormPars, ListaNastavaka1, Statement, ConstDecl, VarDecl;
+
+nonterminal VarDeclList, StatementList, FormParsList, FormalParamDecl, Condition;
+
+nonterminal OptElse, ListaNumConst, Addop, Mulop;
+
+nonterminal ActPars, ActParsList, ListaNastavaka, Assignop;
+
+nonterminal DesignatorList, Relop, ListaNesto;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, Designator, MethodTypeName, ArrayName, DesignatorStatement;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Tip, Term, Factor, Expr, ListaVarDecl, Nesto;
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgName ConstILIVarDeclList LBRACE MethodDeclList RBRACE;
+
+ProgName ::=(ProgName) IDENT:name ;
+
+ConstILIVarDeclList ::=(ConstILIVarDeclList1) ConstILIVarDeclList ConstILIVarDecl | (NoConstILIVarDecl) /*epsilon*/;
+
+ConstILIVarDecl ::= (ConstILIVarDeclVar)  VarDecl |(ConstILIVarDeclConst) ConstDecl ;
+
+ConstDecl ::= (ConstDecl) CONST Type:type IDENT:ident Assignop Nesto:value ListaNesto SEMI;
+
+ListaNesto ::=(YesListaNesto) COMMA IDENT:a JEDNAKO Nesto ListaNesto | (Kraj);
+
+Nesto::= (IntVar)NUMBER:value |(CharVar)CHAR:value |(BoolVar) BOOL:value;
+
+VarDecl ::= (VarDecl) Type:varType IDENT:varName ListaZagrada ListaVarDecl SEMI;
+
+ListaVarDecl ::= (YesListaVarDecl)COMMA IDENT:varName ListaZagrada ListaVarDecl 
+| (NoListaVarDecl);
+		
+ListaZagrada ::= (YesListaZagrada)ListaZagrada LBRACKET RBRACKET 
+| (NoListaZagrada);
+
+Type ::= (Type) IDENT:typeName;
+
+MethodDeclList ::= (MethodDeclarations)MethodDeclList MethodDecl | (NoMethodDeclarations);
+
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormPars:f RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodTypeName ::=(YesMethodTypeName) Type:type IDENT:methName | (VoidMethodTypeName) VOID IDENT:methName;
+
+VarDeclList ::= (YesVarDeclList)VarDeclList VarDecl | (NoVarDeclList);
+
+
+FormPars ::= (YesFormPars) FormParsList | (NoFormPars1);
+
+FormParsList ::= (MultiFormalParamList) FormParsList COMMA FormalParamDecl |(SingleFormalParamDecl) FormalParamDecl;
+
+FormalParamDecl ::= 
+(YesFormalParamDecl) Type:varType IDENT:varName ListaZagrada;
+
+StatementList ::=(YesStatementList)  Statement StatementList
+    | 
+    (NoStatementList);
+
+
+
+Statement::= (Assignment) DesignatorStatement:ds SEMI 
+    |
+	(MatchedStatement) IF LPAREN Condition RPAREN Statement OptElse
+    |
+    (PrintStmt) PRINT LPAREN Expr ListaNumConst RPAREN SEMI
+    |
+    (ReturnNoExpr)RETURN SEMI
+    |
+    (ReturnExpr)RETURN Expr SEMI
+    
+    
+    |
+    (BreakSemi)BREAK SEMI
+    |
+    (ContinueSemi)CONTINUE SEMI
+    |
+    (SadrzajPetlje)LBRACE StatementList RBRACE
+    |
+    (ReadNesto)READ LPAREN Designator RPAREN SEMI;
+
+OptElse ::= ELSE Statement | (NoElse);
+
+ListaNumConst ::= (YesListaNumConst)COMMA NUMBER | (NoListaNumConst);
+
+Expr::= (TermExpr) Term:t
+    |  (MinusTermExpr) MINUS Term:t
+    |  (AddopExpr) Expr:e Addop Term:t;
+
+Term::= (FactorTerm) Factor:t 
+| 
+(MulopTerm) Term:t1 Mulop Factor:t; 
+
+ Factor::= (FunCall) Designator:d LPAREN ActPars RPAREN 
+ | (Var)Designator:d 
+ |(NumberConst) NUMBER 
+ |(CHARConst) CHAR 
+ |(BOOLConst) BOOL
+ |(NoviNiz) NEW Type:t LBRACKET Expr RBRACKET 
+ |(NoviEl) NEW Type:t LPAREN ActPars:p RPAREN 
+ |(UZagradama) LPAREN Expr:e RPAREN
+ |(Range) RANGE LPAREN Expr RPAREN; 
+
+ActPars ::= (YesActPars)ActParsList:e
+| (NoActPars);
+
+ActParsList ::= (MultipleActParsList) Expr:e COMMA ActParsList
+    | (SingleActParsList)Expr:e;
+ 
+Designator ::= (Array) ArrayName ListaNastavaka
+|
+(ObicanDesignator)IDENT:name;
+
+ArrayName ::= (TeskaGlupost) IDENT:name;
+
+DesignatorStatement ::= (DesignatorAsign) Designator:d Assignop Expr:e
+    | (ProcCall)Designator:d LPAREN ActPars RPAREN
+  |(Inkrement) Designator:d INCREMENT 
+  |(Dekrement) Designator:d DECREMENT;
+
+ListaNastavaka ::= 
+(YesListaNastavaka) LBRACKET Expr:ArrayExp RBRACKET ListaNastavaka1;
+
+ListaNastavaka1 ::=(YesListaNastavaka1)  LBRACKET Expr:ArrayExp RBRACKET ListaNastavaka1
+| (NoListaNastavaka1);
+//  Label ::= (Label) IDENT;
+
+Assignop ::= (Assignop)JEDNAKO;
+Relop ::= (Equals) EQUALS | NOT_EQUALS | GREATER_THAN | GREATER_THAN_OR_EQUALS | LESS_THAN | LESS_THAN_OR_EQUALS;
+ 
+Addop ::= (AddopPlus) PLUS |(AddopMinus) MINUS;
+
+
+Mulop ::= (MulopTimes) MULTIPLY |(MulopCelobrojno) DIVIDE | (MulopModulo) MODULO ;
+		

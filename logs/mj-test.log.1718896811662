@@ -1,0 +1,14 @@
+INFO  17:19:20,900 - Compiling source file: C:\Users\Urke\Desktop\PP1Proj\Glupost\Workspace\MJCompiler\test\test300.mj
+INFO  17:19:20,914 - #2 program
+INFO  17:19:20,914 - #38 test301
+INFO  17:19:20,914 - #33 {
+INFO  17:19:20,914 - #3 void
+INFO  17:19:20,914 - #38 main
+INFO  17:19:20,915 - #29 (
+INFO  17:19:20,915 - #30 )
+INFO  17:19:20,915 - #33 {
+INFO  17:19:20,915 - #38 int
+INFO  17:19:20,915 - #38 x
+ERROR 17:19:20,915 - 
+Sintaksna greska na liniji 17
+ERROR 17:19:20,915 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17
